@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CLCompile Include="$(MSBuildThisFileDirectory)App.xaml.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)App.xaml.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\MarvelFacade.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\MD5.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\IJsonSerializable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\CharacterDetail.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\JsonSerializer.cpp" />
+    <ClCompile Include="E:\dev\jsoncpp\dist\jsoncpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\MarvelFacade.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\MD5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\CharacterDetail.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\IJsonSerializable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\MarvelTut.Windows\JsonSerializer.h" />
+    <ClInclude Include="E:\dev\jsoncpp\dist\json\json.h" />
+  </ItemGroup>
+</Project>
